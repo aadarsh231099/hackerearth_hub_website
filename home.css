@@ -6,7 +6,7 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 300px 0 200px ;
+  padding: 100px 0 200px ;
   color: rgba(166, 242, 255,0.7);
 
 }
@@ -112,4 +112,7 @@ a[href="https://assessment.hackerearth.com/challenges/college/call_of_duty_place
 #homepara{
   padding-right: 22%;
   padding-left: 10%;
+}
+img[src="hub-logo.jpg"]{
+  margin-left: 30%;
 }
