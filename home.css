@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   padding: 300px 0 200px ;
   color: rgba(166, 242, 255,0.7);
-  text-align:center;
+
 }
 .banner hr{
   background: rgba(255, 255, 255, 0.16);
@@ -108,4 +108,8 @@ a[href="https://assessment.hackerearth.com/challenges/college/call_of_duty_place
   text-align:center;
   color: rgba(255,255,255,0.8);
   font-family: 'Otomanopee One', sans-serif;
+}
+#homepara{
+  padding-right: 22%;
+  padding-left: 10%;
 }
