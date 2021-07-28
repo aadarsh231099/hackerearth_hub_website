@@ -84,13 +84,6 @@ body{
 p[class="mt-2"],div[class="footer-copyright text-center py-3"]{
   color:#d5dadb;
 }
-.btn-info{
-  width: 50%;
-  background: rgba(23, 162, 184,0.5);
-  border-color: rgba(23, 162, 184,0.5);
-  text-transform: uppercase;
-
-}
 a[href="https://assessment.hackerearth.com/challenges/college/call_of_duty_placement_contest/"]{
   color: inherit;
   text-decoration: inherit;
