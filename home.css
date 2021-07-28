@@ -116,3 +116,10 @@ a[href="https://assessment.hackerearth.com/challenges/college/call_of_duty_place
 img[src="hub-logo.jpg"]{
   margin-left: 30%;
 }
+#maill{
+  text-decoration: inherit;
+  color: inherit;
+}
+i[class="bi bi-envelope-fill"]{
+  font-size: 20px;
+}
