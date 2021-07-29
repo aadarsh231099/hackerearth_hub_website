@@ -9,6 +9,17 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  <style media="screen">
+    .card-wrapper{
+      height: 700px;
+      width: 600px;
+      perspective: 1000px;
+    }
+    .mx-11{
+    margin-left: 23% !important;
+    margin-right: 23% !important;
+    }
+  </style>
 
 </head>
 <body>
@@ -68,71 +79,63 @@
 
 <div class="jumbotron sectionbox" id="jumbo">
   <div class="container hell ">
+    <h3 style="text-align:center;font-size:45px;color:#d1bad9"><i>Faculty Members</i></h3><br>
     <div class="row ">
-      <div class="col-lg-3 col-sm-6 col-xs-12 box">
-        <h1 id="code"><i class="bi bi-code-slash"></i></h1>
-        <h1>Code</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+      <div class="col-lg-6  col-xs-12 box">
+        <img class="rounded-circle m-1"src="faculty\ashwini.jpg" alt="">
+        <h2>Dr. Ashwini B</h2>
+        <p style="margin-bottom:0;font-size:20px">Faculty Advisor</p>
+        <a href="mailto: ashwinib@nitte.edu.in"style="text-decoration:inherit;color:inherit"><p><i class="bi bi-envelope-fill"></i> ashwinib@nitte.edu.in</p></a>
       </div>
-      <div class="col-lg-3 col-sm-6 col-xs-12 box highlight">
-        <h1 id="code"><i class="bi bi-code-slash"></i></h1>
-        <h1>Code</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
-      </div>
-      <div class="col-lg-3 col-sm-6 col-xs-12 box highlight">
-        <h1 id="code"><i class="bi bi-code-slash"></i></h1>
-        <h1>Code</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
-      </div>
-      <div class="col-lg-3 col-sm-6 col-xs-12 box highlight" >
-        <h1 id="code"><i class="bi bi-code-slash"></i></h1>
-        <h1>Code</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+
+
+      <div class="col-lg-6  col-xs-12 box highlight" >
+        <img class="rounded-circle m-1"src="faculty\sandhya.jpg" alt="">
+        <h2>Ms. Sandhya S</h2>
+        <p style="margin-bottom:0;font-size:20px">Staff Coordinator</p>
+        <a href="mailto: sandhyas@nitte.edu.in"style="text-decoration:inherit;color:inherit"><p><i class="bi bi-envelope-fill"></i> sandhyas@nitte.edu.in</p></a>
       </div>
     </div>
   </div>
 </div>
 <div class="container">
-  <h2>Upcoming Events and Conducted:</h2>
-  <hr>
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="Events\event-1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <!-- <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p> -->
+  <h2 style="text-align:center">Upcoming Event:</h2>
+  <hr><br><br>
+<div class="row">
+  <div class="col-xs-12 mx-11">
+    <div class="card-wrapper" >
+        <div class="content">
+            <div class="face-front z-depth-2">
+                <img src="Events\event-1.jpg" alt="" width="600px" height="700px">
+            </div>
+
+            <div class="face-back z-depth-2">
+                <div class="card-body">
+                    <h4 class="font-weight-bold">CALL OF DUTY</h4>
+                    <hr>
+                    <h5 class="font-weight-normal">A Step Towards Placement</h5>
+                    <hr>
+
+                    <h5 class="font-weight-bold">To Participate </h5>
+                    <a class="btn btn-warning" href="https://p.hck.re/9Nmm" target="_blank" role="button">Click Here</a>
+                    <br><br><br>
+
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img src="Events\event-2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <!-- <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p> -->
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="Events\event-3.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <!-- <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p> -->
-        </div>
-      </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
+
+</div>
+
+
+
+
+
+
+
+
+
   <br><br><br>
   <hr>
   <div class="row">
@@ -148,6 +151,8 @@
   <hr>
   <br><br>
 </div>
+
+<!-- footer begin -->
 <footer class="page-footer bg-dark">
 
   <div class="bg-hacker">
@@ -178,10 +183,10 @@
         <hr class="bg-hacker mb-4 mt-0 d-inline-block mx-auto" style="width: 95px; height: 2px">
 
         <ul class="list-unstyled">
-          <li class="my-2"><a href="https://www.instagram.com/hackerearth_nmamit/"><i class="bi bi-instagram"></i> Instagram</a></li>
-          <li class="my-2"><a href="https://in.linkedin.com/company/hackerearth-hub-nmamit"><i class="bi bi-linkedin"></i> Linkedin</a></li>
-          <li class="my-2"><a href="https://twitter.com/NHackerearth"><i class="bi bi-twitter"></i> Twitter</a></li>
-          <li class="my-2"><a href="https://github.com/HackerEarth-Hub-NMAMIT"><i class="bi bi-github"></i> Github</a></li>
+          <li class="my-2"><a href="https://www.instagram.com/hackerearth_nmamit/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+          <li class="my-2"><a href="https://in.linkedin.com/company/hackerearth-hub-nmamit" target="_blank"><i class="bi bi-linkedin"></i> Linkedin</a></li>
+          <li class="my-2"><a href="https://twitter.com/NHackerearth" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></li>
+          <li class="my-2"><a href="https://github.com/HackerEarth-Hub-NMAMIT" target="_blank"><i class="bi bi-github"></i> Github</a></li>
 
         </ul>
       </div>
