@@ -32,6 +32,9 @@
   background: #323252;
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
+.nav-item{
+   text-align: right;
+}
 nav .navbar-nav li a{
   color: white !important;
   }
