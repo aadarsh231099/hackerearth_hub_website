@@ -155,3 +155,16 @@ div[class="col-lg-4 col-md-6 col-xs-12 mb-4"]{
 .face-back{
   transform: rotateY(180deg);
 }
+@media  only screen and (min-width: 992px) {
+  #wekcard{
+      width: 50% !important;
+  }
+  .align-content-center .card-wrapper{
+    margin:auto;
+  }
+
+}
+
+
+
+}
