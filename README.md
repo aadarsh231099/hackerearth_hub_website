@@ -1,2 +1,2 @@
 # hackerearth_hub_website
-# Website design and development
+Designed and developed Website for our College Club Hackerearth Hub-Nmamit.
