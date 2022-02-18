@@ -171,13 +171,16 @@ div[class="col-lg-4 col-md-6 col-xs-12 mb-4"]{
   position: absolute;
   width: 100%;
   height: 100%;
+  -webkit-backface-visibility: hidden;
   background-color: #fff;
   color: black;
+  backface-visibility: hidden;
 }
 
 .face-back{
   transform: rotateY(180deg);
 }
+
 @media  only screen and (min-width: 992px) {
   #wekcard{
     width: 50% !important;
@@ -190,4 +193,4 @@ div[class="col-lg-4 col-md-6 col-xs-12 mb-4"]{
 
 
 
-}
+
